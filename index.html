@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deeplink / Universal link Testing</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 40px; }
+    h1 { font-size: 42px; margin: 0 0 24px; }
+    li { font-size: 22px; margin: 14px 0; }
+    a { color: #0b57d0; }
+    code { font-size: 18px; }
+  </style>
+</head>
+<body>
+  <h1>Deeplink / Universal link Testing</h1>
+
+  <ul>
+    <li><b>Raw Universal link:</b>
+      <a href="https://xxxx.adj.st" target="_blank" rel="noopener">xxxx.adj.st</a>
+    </li>
+
+    <li><b>Universal link + path:</b>
+      <a href="https://s2nf.adj.st/sell?adj_t=1h2vpqgc" target="_blank" rel="noopener">
+        https://s2nf.adj.st/sell?adj_t=1h2vpqgc
+      </a>
+    </li>
+
+    <li><b>Universal link:</b>
+      <a href="https://xxxx.adj.st/?adj_t=abc123" target="_blank" rel="noopener">
+        https://xxxx.adj.st/?adj_t=abc123
+      </a>
+    </li>
+
+    <li><b>Deep link:</b>
+      <a href="https://app.adjust.com/abc123?deep_link=XXXX" target="_blank" rel="noopener">
+        https://app.adjust.com/abc123?deep_link=XXXX
+      </a>
+    </li>
+  </ul>
+</body>
+</html>
